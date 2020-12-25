@@ -36,10 +36,10 @@ public:
 	bool getgoodie(Goodie* g);//return true if player gets a goodie, otherwise false.
 	bool getlife(ELife* e);//things going on when player gets extra life goodies(return true if got, false if not)
 	bool getfungus(Fungus* fungus);//things going on when player runs into a fungus(return true if did, false if not)
-	bool hurtSocrates(Bacteria* b);//used to determine if a bacteria has hurt a Socrates and also implement the effect of damage(decrease player’s hp, play sound)
+	bool hurtSocrates(Bacteria* b);//used to determine if a bacteria has hurt a Socrates and also implement the effect of damage(decrease playerâ€™s hp, play sound)
 	bool inrange(Bacteria* b);//used to determine if the player is in 72pixels around a bacteria(for aggressive salmonella use)
 	bool inrange2(Bacteria* b);//used to determine if the player is in 256 pixels around a bacteria(for ecoli use)
-	bool blockbydirt(double x, double y);//determine if the result of the next movement’s position is going to cause an overlap with a dirt
+	bool blockbydirt(double x, double y);//determine if the result of the next movementâ€™s position is going to cause an overlap with a dirt
 	bool getFood(Bacteria* b);//determine if a bacteria got food and implement the effect of getting a food(increase the number of food eaten by the bacteria by one and set the food to dead)
 	void dirtoplayer(Bacteria* b);//get the direction from the bacterium to the player and set it to the direction of the bacterium
 	bool dirtofood(Bacteria* b);//get the direction from the bacterium to the closest food and set it to the direction of the bacterium
