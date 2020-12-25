@@ -1,2 +1,3 @@
-# little_game
-School Project 3 got 100pts
+# Kontagian Game
+A little game.
+Details see project spec.
